@@ -15,7 +15,7 @@ a. Please make sure that the web driver is on your computer path or you set ins
 
 This Python code reads list of Items from list_of_items.csv and serach for them in https://shopee.co.id/. So put this CSV file beside Python Scraper file.
 
-The output file will be a CSV file. I have put an example of CSV output file in this repository.
+The output file will be a CSV file. I have put an example of CSV output file(Shopee-Scraped-data.csv) in this repository.
 
 
 
