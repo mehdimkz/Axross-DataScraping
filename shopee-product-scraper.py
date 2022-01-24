@@ -12,7 +12,7 @@ from selenium.webdriver.common.keys import Keys
 from pyshadow.main import Shadow
 
 
-webdriver_path = '/Users/mehdi-mac/JupyterNotebooks/Axross-Exerecise/chromedriver' # Enter the file directory of the Chromedriver
+webdriver_path = '/Users/mehdi-mac/JupyterNotebooks/Axross-Exerecise/chromedriver' # Please Enter the Path of Chromedriver in your system
 url = 'https://shopee.co.id/'
 
 #Read list of items from a CSV file
