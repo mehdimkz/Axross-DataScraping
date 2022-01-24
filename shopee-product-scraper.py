@@ -77,9 +77,9 @@ while i <=len(search_items):
  time.sleep(2)
        
  #CLear The Search Field text
- searchForMovie = WebDriverWait (driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//input[@class="shopee-searchbar-input__input"]')))
- searchForMovie.click()
- searchForMovie.clear()
+ searchForProd = WebDriverWait (driver, 10).until(EC.element_to_be_clickable((By.XPATH, '//input[@class="shopee-searchbar-input__input"]')))
+ searchForProd.click()
+ searchForProd.clear()
  time.sleep(2)
  Search_bar=driver.find_element(By.XPATH,'//input[@class="shopee-searchbar-input__input"]')
  for z in range (0,len(search_items[i-1])):
